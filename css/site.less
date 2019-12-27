@@ -1,0 +1,102 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Milonga);
+@import url(https://fonts.googleapis.com/css?family=Abel&display=swap);
+@siteColor: #171d26;
+@siteTextColor: #fcfaf2;
+@importantTextColor: #9bc1fa;
+@importantTextColorDark: #6f8ab3;
+@eventbriteColor: #261a17;
+@eventbriteButtonColor: #4d342e;
+@eventbriteButtonHighlightColor: #6a544e;
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 1px;
+  margin-top: -1px;
+}
+h3 {
+    font-size:1em;
+    color:@importantTextColor;
+}
+.nomargin {
+    margin:0px;
+}
+.breathe {
+    padding-top: 0.75vh;
+    padding-bottom:0.5vh;
+}
+.background {
+  padding-top: 1px;
+  margin-top: -1px;
+}
+.content {
+  background-color: #171d26;
+  width: 97vw;
+  margin: auto;
+  margin-top: 0;
+  color: #fcfaf2;
+  text-align: center;
+  font-size: 1.25em;
+  font-family: "Milonga";
+  min-height: 100vh;
+  margin-bottom:-5vh;
+  padding-bottom:5vh;
+}
+.content > p {
+  margin-top: 0px;
+}
+.contentHeader {
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  height: fit-content;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.Logo {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.LogoBG {
+  background-color: rgba(0, 0, 0, 0.65);
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top:3vh;
+}
+.blue {
+  color: @importantTextColor;
+}
+.Event_Description {
+    width:69vw;
+    margin:auto;
+}
+.Eventbrite {
+    background-color: @eventbriteColor;
+    margin-left:0px;
+    margin-right:0px;
+}
+.EventbriteButton {
+    background-color: @importantTextColorDark;
+    font-family:"Abel";
+    color: black;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:3vh 2vw;
+    text-decoration:none;
+    width:5em;
+    border-radius:5px;
+    transition:0.3s;
+}
+.EventbriteButton:hover{
+    background-color:@importantTextColor;
+    color:black;
+}
+.textcompressed{
+    width:69vw;
+    display:inline-block;
+}
+.imagenarrow {
+    width: 40vw;
+    margin:0px auto;
+    display:block;
+}
