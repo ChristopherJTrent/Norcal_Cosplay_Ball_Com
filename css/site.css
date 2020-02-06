@@ -28,6 +28,9 @@ h3 {
   font-size: 1em;
   color: #9bc1fa;
 }
+hr {
+  height: 1.6942;
+}
 .nomargin {
   margin: 0px;
 }
