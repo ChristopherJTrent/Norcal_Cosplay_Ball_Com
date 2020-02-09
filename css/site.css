@@ -8,8 +8,13 @@
   font-family: 'Abel';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: local('Abel Regular'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v10/MwQ5bhbm2POE2V9BOA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
 body {
   margin: 0;
@@ -29,7 +34,16 @@ h3 {
   color: #9bc1fa;
 }
 hr {
-  height: 1.6942;
+  margin-top: 1.6vw;
+}
+.fbLogo {
+  font-family: "Roboto";
+  background-color: #4267B2;
+  padding-left: 0.3vw;
+  padding-right: 0.3vw;
+  margin-right: 0.3vw;
+  border-radius: 3px;
+  font-size: 1.3em;
 }
 .nomargin {
   margin: 0px;
@@ -79,7 +93,7 @@ hr {
   color: #9bc1fa;
 }
 .Event_Description {
-  width: 69.42vw;
+  width: 70vw;
   margin: auto;
 }
 .Eventbrite {
@@ -105,7 +119,7 @@ hr {
   color: black;
 }
 .textcompressed {
-  width: 69vw;
+  width: 70vw;
   display: inline-block;
 }
 .imagenarrow {
